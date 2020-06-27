@@ -1,0 +1,14 @@
+.Counter {
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 85px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 85px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 85px -3px rgba(0,0,0,0.75);
+}

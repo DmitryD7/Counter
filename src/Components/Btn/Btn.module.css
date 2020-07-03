@@ -1,0 +1,40 @@
+.Btn {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    color: #eee5fffc;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    width: 40%;
+    padding: 15px 0;
+    background-color: #8a78fffc;
+}
+
+.Btn:focus {
+    outline: none;
+}
+
+.Btn:active {
+    box-shadow: inset 2px 2px 1px rgba(0, 0, 0, .3);
+}
+
+.Btn:disabled {
+    background: #482bfffc;
+    color: #eee5fffc;
+    cursor: not-allowed;
+}
+
+.error {
+    background: rgba(240, 57, 108, 1);
+}
+
+.success {
+    background: rgba(161, 240, 69, 1);
+}
+
+.primary {
+    background: #2884f6;
+    color: #fff;
+}

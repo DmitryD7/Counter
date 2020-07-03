@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import s from './Counter.module.css';
 import Scoreboard from "../Scoreboard/Scoreboard";
 import Buttons from "../Buttons/Buttons";
+import Btn from "../Btn/Btn";
 
 function Counter() {
     let [numbers, setNumbers] = useState<number>(0);
@@ -14,6 +15,7 @@ function Counter() {
     const resetHandler = () => {
         setNumbers(0);
     };
+
 
     return (
         <div className={s.Counter}>

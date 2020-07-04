@@ -1,0 +1,11 @@
+.Setboard {
+    font-weight: bold;
+    font-size: 50px;
+    color: #eee5fffc;
+    border: 2px solid #807fd4fc;
+    border-radius: 7px;
+    width: 70%;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+

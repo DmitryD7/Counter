@@ -3,7 +3,7 @@ import s from './Btn.module.css';
 
 type ButtonsTypes = {
     onClick: () => void,
-    isDisabled?: boolean
+    isDisabled?: string|boolean
 }
 
 const Btn: React.FC<ButtonsTypes> = (
@@ -13,9 +13,11 @@ const Btn: React.FC<ButtonsTypes> = (
         ...props
     }
 ) => {
+    if (isDisabled){
+    }
     return <button
             className={s.Btn}
-            disabled={isDisabled}
+            disabled={(isDisabled)?true:false}
             onClick={onClick}
             {...props}
         />

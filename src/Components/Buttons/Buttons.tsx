@@ -9,11 +9,6 @@ type ButtonsTypes = {
 }
 
 function Buttons(props:ButtonsTypes) {
-
-    const onClick = () => {
-        alert("Hey")
-    };
-
     return (
         <div className={s.Buttons}>
             <Btn onClick={props.increase} isDisabled={props.numbers === 5}>Increase</Btn>
